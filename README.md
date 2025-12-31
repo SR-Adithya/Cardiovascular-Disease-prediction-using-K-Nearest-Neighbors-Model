@@ -1,4 +1,4 @@
-# Cardiovascular-Disease-prediction-using-SVM
+# Cardiovascular-Disease-prediction-using-K-Nearest-Neighbor
 Exposure to cardiovascular disease by collecting clinical parameters and processing through a machine learning model.
 
 ## About Dataset
