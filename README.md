@@ -75,7 +75,7 @@ F1-Score: Utilizes precision and recall and calculates their mean harmonically t
 - Formula used:
 
 $$
-\text{F1 score} = 2 * \frac{Precision * Recall}{Precision + Recall}
+\text{F1-score} = 2 \times \frac{Precision \times Recall}{Precision + Recall}
 $$
 
 Reduces false positives and false negatives
