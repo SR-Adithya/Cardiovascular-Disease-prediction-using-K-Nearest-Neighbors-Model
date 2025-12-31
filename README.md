@@ -56,7 +56,7 @@ Recall: Ratio of correct predicted positive among all actual positives
 Formula used: 
 
 $$
-\text{Recall} = \frac{TP}{(TP+FN)}
+\text{Recall} = \frac{TP}{TP+FN}
 $$
 Helps to capture exact positive cases
 
@@ -64,7 +64,7 @@ Precision: Ratio of correct predicted positives among all predicted positives
 Formula used:
 
 $$
-\text{Precision} = \frac{TP}{(TP+FP)}
+\text{Precision} = \frac{TP}{TP+FP}
 $$
 Useful to mitigate false positives
 
@@ -72,7 +72,7 @@ F1-Score: Utilizes precision and recall and calculates their mean harmonically t
 Formula used:
 
 $$
-\text{F1 score} = \frac{2 × (Precision × Recall)}{(Precision + Recall)}
+\text{F1 score} = \frac{2 × Precision × Recall}{Precision + Recall}
 $$
 Reduces false positives and false negatives
 
