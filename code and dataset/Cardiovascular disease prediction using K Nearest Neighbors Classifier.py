@@ -8,7 +8,7 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 import seaborn as sbn
 import numpy as np
 
-information = pd.read_csv("K:\\FITA class docs\\AIML\\My_Datasets\\Cardiovascular Study Dataset\\train.csv")
+information = pd.read_csv("code and dataset/train.csv")
 
 information.rename(columns = {'sex' : 'Gender', 'is_smoking' : 'Smoker', 'cigsPerDay' : 'Cigarette(s) per day',
                               'totChol' : 'Recent cholestrol level', 'sysBP' : 'Upper BP', 'diaBP' : 'Lower BP',
@@ -239,4 +239,5 @@ else:
 
 
 prob = model.predict_proba([[age,gender,Smoker,CigperD,UBP,LBP,heartrate]])[0][1]
+
 print(f"Predicted probability of CVD: {prob:.2f}")
