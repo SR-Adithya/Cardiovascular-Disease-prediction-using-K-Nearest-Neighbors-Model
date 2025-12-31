@@ -54,6 +54,7 @@ Classification report:
 Provides comprehensive performance analysis such as recall, precision, F1 score and shows the behavior of each classes.
 Recall: Ratio of correct predicted positive among all actual positives
 Formula used: 
+
 $$
 \text{Recall} = \frac{TP}{(TP+FN)}
 $$
@@ -61,6 +62,7 @@ Helps to capture exact positive cases
 
 Precision: Ratio of correct predicted positives among all predicted positives
 Formula used:
+
 $$
 \text{Precision} = \frac{TP}{(TP+FP)}
 $$
@@ -68,6 +70,7 @@ Useful to mitigate false positives
 
 F1-Score: Utilizes precision and recall and calculates their mean harmonically to balance the false positives and negatives into a single value.
 Formula used:
+
 $$
 \text{F1 score} = \frac{2 × (Precision × Recall)}{(Precision + Recall)}
 $$
